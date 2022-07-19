@@ -6,7 +6,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 const NotFound = () => (
   <>
     <Head>
-      <title>404 | Material Kit</title>
+      <title>404 | Bonade</title>
     </Head>
     <Box
       component="main"
@@ -48,7 +48,7 @@ const NotFound = () => (
               startIcon={<ArrowBackIcon fontSize="small" />}
               sx={{ mt: 3 }}
               variant="contained">
-              Go back to dashboard
+              Go Back To Home Page
             </Button>
           </NextLink>
         </Box>

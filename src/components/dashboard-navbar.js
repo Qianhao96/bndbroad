@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
-import { AppBar, Avatar, Badge, Box, IconButton, Toolbar, Tooltip } from '@mui/material';
+import { AppBar, Box, IconButton, Toolbar, Tooltip, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import SearchIcon from '@mui/icons-material/Search';
-import { Bell as BellIcon } from '../icons/bell';
-import { UserCircle as UserCircleIcon } from '../icons/user-circle';
-import { Users as UsersIcon } from '../icons/users';
+
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import EmailIcon from '@mui/icons-material/Email';
+import CallIcon from '@mui/icons-material/Call';
+import MobileScreenShareIcon from '@mui/icons-material/MobileScreenShare';
 
 const DashboardNavbarRoot = styled(AppBar)(({ theme }) => ({
   backgroundColor: theme.palette.background.paper,
@@ -44,33 +46,41 @@ export const DashboardNavbar = (props) => {
             }}>
             <MenuIcon fontSize="small" />
           </IconButton>
-          <Tooltip title="Search">
-            <IconButton sx={{ ml: 1 }}>
-              <SearchIcon fontSize="small" />
-            </IconButton>
+          <Tooltip title="Email: yolanda@bndbroad.com">
+            <Typography
+              color="textPrimary"
+              variant="h7"
+              sx={{ display: 'flex', alignItems: 'center' }}>
+              <EmailIcon sx={{ mr: 1 }} fontSize="medium" /> Email: yolanda@bndbroad.com
+            </Typography>
+          </Tooltip>
+          <Tooltip title="Tel：+86 0755 2826 8813">
+            <Typography
+              color="textPrimary"
+              variant="h7"
+              sx={{ display: 'flex', alignItems: 'center', ml: 5 }}>
+              <CallIcon sx={{ mr: 1 }} fontSize="medium" /> Tel：+86 0755 2826 8813
+            </Typography>
+          </Tooltip>
+          <Tooltip title=" Mob：+86 136 3261 1713">
+            <Typography
+              color="textPrimary"
+              variant="h7"
+              sx={{ display: 'flex', alignItems: 'center', ml: 5 }}>
+              <MobileScreenShareIcon sx={{ mr: 1 }} fontSize="medium" /> Mob：+86 136 3261 1713
+            </Typography>
           </Tooltip>
           <Box sx={{ flexGrow: 1 }} />
-          <Tooltip title="Contacts">
+          <Tooltip title="Twitter">
             <IconButton sx={{ ml: 1 }}>
-              <UsersIcon fontSize="small" />
+              <TwitterIcon fontSize="large" />
             </IconButton>
           </Tooltip>
-          <Tooltip title="Notifications">
+          <Tooltip title="Facebook">
             <IconButton sx={{ ml: 1 }}>
-              <Badge badgeContent={4} color="primary" variant="dot">
-                <BellIcon fontSize="small" />
-              </Badge>
+              <FacebookIcon fontSize="large" />
             </IconButton>
           </Tooltip>
-          <Avatar
-            sx={{
-              height: 40,
-              width: 40,
-              ml: 1
-            }}
-            src="/static/images/avatars/avatar_1.png">
-            <UserCircleIcon fontSize="small" />
-          </Avatar>
         </Toolbar>
       </DashboardNavbarRoot>
     </>
