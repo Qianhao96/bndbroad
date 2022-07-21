@@ -21,6 +21,11 @@ const items = [
     title: 'HOME'
   },
   {
+    href: '/about',
+    icon: <InfoIcon fontSize="small" />,
+    title: 'About Us'
+  },
+  {
     href: '/products',
     icon: <ShoppingBagIcon fontSize="small" />,
     title: 'Products'
@@ -34,11 +39,6 @@ const items = [
     href: '/news',
     icon: <FeedIcon fontSize="small" />,
     title: 'News'
-  },
-  {
-    href: '/about',
-    icon: <InfoIcon fontSize="small" />,
-    title: 'About Us'
   },
   {
     href: '/contact',
