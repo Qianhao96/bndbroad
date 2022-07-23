@@ -15,6 +15,7 @@ const DashboardLayoutRoot = styled('div')(({ theme }) => ({
 }));
 
 export const DashboardLayout = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { children } = props;
   const [isSidebarOpen, setSidebarOpen] = useState(true);
 

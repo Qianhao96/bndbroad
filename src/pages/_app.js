@@ -11,8 +11,10 @@ import './styles.css';
 const clientSideEmotionCache = createEmotionCache();
 
 const App = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
 
+  // eslint-disable-next-line react/prop-types
   const getLayout = Component.getLayout ?? ((page) => page);
 
   return (
