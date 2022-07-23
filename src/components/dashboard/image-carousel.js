@@ -17,7 +17,7 @@ export const ImageCarousel = (props) => {
         indicators={indicators}>
         {images.map((image, i) => (
           <div key={i} className="fill">
-            <img src={image.path} alt={image.name} />
+            <img src={image.path} alt={image.name} height={600} />
           </div>
         ))}
       </Carousel>

@@ -1,3 +1,4 @@
+import { Box } from '@mui/material';
 import Head from 'next/head';
 
 import { DashboardLayout } from '../components/dashboard-layout';
@@ -24,6 +25,7 @@ const Dashboard = () => (
       <title>Home</title>
     </Head>
     <ImageCarousel images={bannerImages}></ImageCarousel>
+    <Box sx={{ height: 500 }}>Test</Box>
   </>
 );
 
