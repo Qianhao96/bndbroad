@@ -2,6 +2,7 @@ import { Box, Typography, Divider, Grid } from '@mui/material';
 import Head from 'next/head';
 import NextLink from 'next/link';
 import Carousel from 'better-react-carousel';
+import ReactPlayer from 'react-player';
 
 import { DashboardLayout } from '../components/dashboard-layout';
 import { ImageCarousel } from './../components/dashboard/image-carousel';
@@ -153,8 +154,10 @@ const Dashboard = () => (
         </NextLink>
       </Box>
     </Box>
+
     {/* Products Bag Links */}
-    <Box sx={{ mt: 5, mb: 10 }}>Test</Box>
+    <Box sx={{ mt: 5, mb: 10 }}>Bags</Box>
+
     <Grid container spacing={2}>
       <Grid item xl={6}>
         <Box sx={{ height: '100%', width: '100%', position: 'relative' }}>
@@ -189,19 +192,19 @@ const Dashboard = () => (
           }}>
           <Typography variant="h3">We are trustworthy</Typography>
           <Divider />
-          <Typography variant="body1" sx={{ pt: 3, pb: 3 }}>
+          <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
             1. The Company is geographically located in the central area of Longgang Central City
             with convenient transportation and excellent environment, and at the junction of
             Dongguan and Huizhou, which is convenient for business development.
           </Typography>
-          <Typography variant="body1" sx={{ pt: 3, pb: 3 }}>
+          <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
             2. Professional foreign trade team: with more than 20 years of experience in foreign
             trade export, familiar with international trade laws and regulations.
           </Typography>
-          <Typography variant="body1" sx={{ pt: 3, pb: 3 }}>
+          <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
             3. The bag industry has more than 15 years.
           </Typography>
-          <Typography variant="body1" sx={{ pt: 3, pb: 3 }}>
+          <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
             4. We have a professional technical team and strong factory productivity support to help
             buyers choose satisfactory products. At the same time, we can provide professional
             product customization business.
@@ -234,6 +237,71 @@ const Dashboard = () => (
         </Carousel.Item>
       </Carousel>
     </Box>
+
+    <Box sx={{ backgroundColor: 'white' }}>
+      <Carousel cols={1} rows={1} gap={10} autoplay={3000} hideArrow={true} loop>
+        <Carousel.Item>
+          <img width="100%" src="/static/images/bndbroad/indexImages/index-box4-bg.jpg" />
+        </Carousel.Item>
+      </Carousel>
+      <Grid container spacing={2}>
+        <Grid item xl={6}>
+          <Box
+            sx={{
+              padding: 3,
+              height: '100%',
+              width: '100%',
+              backgroundColor: 'white',
+              boxShadow:
+                '0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07),0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);'
+            }}>
+            <Box
+              style={{
+                color: 'white',
+                backgroundColor: '#355e9a',
+                padding: 20,
+                width: '190px'
+              }}>
+              <Typography variant="h4">BONADE</Typography>
+              <Typography variant="h5">ADVANTAGE</Typography>
+            </Box>
+            <Typography variant="h5">
+              Bonade Enterprise Management Consulting (Shenzhen) Co., Ltd
+            </Typography>
+            <Divider />
+            <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
+              Bonade Enterprise Management Consulting (Shenzhen) Co., Ltd., was founded in 2018, it
+              is a professional foreign trade company with import and export rights of goods and
+              technologies. We focus on the import and export business of bags, leather, gifts,
+              toys, electronic products, mobile phone accessories and household appliances.
+            </Typography>
+            <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
+              We have a professional sales and technical teams, as well as a strong factory
+              productivity support, we can help buyers to choose the satisfactory products.
+            </Typography>
+            <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
+              At the same time, we can provide professional products customized business. Our
+              products sell well all over the world, the current export to Europe and the United
+              States accounted for 50%, other countries accounted for 50%.
+            </Typography>
+          </Box>
+        </Grid>
+        <Grid item xl={6}>
+          <Box sx={{ position: 'relative', paddingTop: '60%' }}>
+            <ReactPlayer
+              style={{ position: 'absolute', top: 0, left: 0 }}
+              url="/static/images/bndbroad/chiller.mp4"
+              width="100%"
+              height="100%"
+              loop
+              playing={true}
+            />
+          </Box>
+        </Grid>
+      </Grid>
+    </Box>
+
+    <Box sx={{ mt: 5, mb: 10 }}>News</Box>
   </>
 );
 
