@@ -4,12 +4,10 @@ import NextLink from 'next/link';
 import Carousel from 'better-react-carousel';
 import ReactPlayer from 'react-player';
 
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-
 import { DashboardLayout } from '../components/dashboard-layout';
 import { ImageCarousel } from './../components/dashboard/image-carousel';
+import { ProductCard } from './../components/product/product-card';
+import { indexBagProducts } from './../services/data';
 
 const bannerImages = [
   {
@@ -54,41 +52,6 @@ const companyImages = [
   {
     name: 'image7',
     path: '/static/images/bndbroad/indexImages/indexImage7.png'
-  }
-];
-
-const indexBagImages = [
-  {
-    name: 'bag',
-    path: '/static/images/bndbroad/productsImages/bag.jpg'
-  },
-  {
-    name: 'bag2',
-    path: '/static/images/bndbroad/productsImages/bag2.jpg'
-  },
-  {
-    name: 'bag3',
-    path: '/static/images/bndbroad/productsImages/bag3.jpg'
-  },
-  {
-    name: 'bag4',
-    path: '/static/images/bndbroad/productsImages/bag4.jpg'
-  },
-  {
-    name: 'bag5',
-    path: '/static/images/bndbroad/productsImages/bag5.jpg'
-  },
-  {
-    name: 'bag6',
-    path: '/static/images/bndbroad/productsImages/bag6.jpg'
-  },
-  {
-    name: 'bag7',
-    path: '/static/images/bndbroad/productsImages/bag7.jpg'
-  },
-  {
-    name: 'bag8',
-    path: '/static/images/bndbroad/productsImages/bag8.jpg'
   }
 ];
 
@@ -205,24 +168,10 @@ const Dashboard = () => (
           paddingLeft: 5,
           paddingRight: 5
         }}>
-        {indexBagImages.map((image, i) => (
-          <NextLink key={i} href="/products">
-            <Grid item lg={3}>
-              <Card style={{ cursor: 'pointer' }}>
-                <CardMedia
-                  component="img"
-                  height="300"
-                  width="250"
-                  image={image.path}
-                  alt={image.name}
-                  sx={{ width: '80%', marginLeft: '11%' }}
-                />
-                <CardContent sx={{ textAlign: 'center' }}>
-                  <Typography variant="h6">{image.name}</Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          </NextLink>
+        {indexBagProducts.map((product, i) => (
+          <Grid key={i} item lg={3}>
+            <ProductCard product={product}></ProductCard>
+          </Grid>
         ))}
       </Grid>
     </Box>
