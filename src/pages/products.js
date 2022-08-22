@@ -9,7 +9,7 @@ import * as React from 'react';
 import { DashboardLayout } from '../components/dashboard-layout';
 import { ImageCarousel } from './../components/dashboard/image-carousel';
 import { productCategories } from 'src/services/data';
-import { productBags } from 'src/services/data';
+import { allBags } from 'src/services/data';
 import { ProductCard } from './../components/product/product-card';
 
 const bannerImages = [
@@ -54,8 +54,8 @@ const Products = () => {
                   paddingLeft: 5,
                   paddingRight: 5
                 }}>
-                {productBags.map((p, ii) => (
-                  <Grid key={i} item lg={3}>
+                {allBags.map((p, ii) => (
+                  <Grid key={ii} item lg={3}>
                     {p.category === c ? <ProductCard key={ii} product={p}></ProductCard> : null}
                   </Grid>
                 ))}

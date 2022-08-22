@@ -15,6 +15,7 @@ const Products = () => (
       <title>Products</title>
     </Head>
     <ImageCarousel images={bannerImages}></ImageCarousel>
+    To Be Complete
   </>
 );
 
