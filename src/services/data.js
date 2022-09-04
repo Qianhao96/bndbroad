@@ -98,6 +98,7 @@ export const makeupStorageBags = [
     image1: '/static/images/bndbroad/productsImages/msb5_1.jpg',
     image2: '/static/images/bndbroad/productsImages/msb5_2.jpg',
     imaged1: '/static/images/bndbroad/productsImages/msb5_d_1.jpg',
+    category: 'Bags',
 
     material: 'Polyester',
     type: 'Bag',

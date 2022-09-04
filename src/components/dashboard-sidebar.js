@@ -7,9 +7,9 @@ import { Box, Divider, Drawer, useMediaQuery } from '@mui/material';
 import InfoIcon from '@mui/icons-material/Info';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
 import FeedIcon from '@mui/icons-material/Feed';
+import MenuIcon from '@mui/icons-material/Menu';
 
 import { ShoppingBag as ShoppingBagIcon } from '../icons/shopping-bag';
-import { Menu as Menu } from '../icons/Menu';
 
 import { Logo } from './logo';
 import { NavItem } from './nav-item';
@@ -17,7 +17,7 @@ import { NavItem } from './nav-item';
 const items = [
   {
     href: '/',
-    icon: <Menu fontSize="small" />,
+    icon: <MenuIcon fontSize="small" />,
     title: 'HOME'
   },
   {

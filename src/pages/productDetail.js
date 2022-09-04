@@ -219,8 +219,8 @@ const ProductDetail = () => {
                     <Typography variant="h6">1V1 ORDER TRACKING SERVICE</Typography>
                     <Divider />
                     <Typography variant="h8">
-                      Accurately understand customer's processing needs before sales, determine
-                      processing plans and specify delivery time.Respond quickly to customer's
+                      Accurately understand customer processing needs before sales, determine
+                      processing plans and specify delivery time.Respond quickly to customer
                       questions within 7*8 hours after sale, and provide lifetime warranty service
                       free of working hours.
                     </Typography>
