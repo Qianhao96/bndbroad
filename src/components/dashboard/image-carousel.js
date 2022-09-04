@@ -17,7 +17,7 @@ export const ImageCarousel = (props) => {
         indicators={indicators}>
         {images.map((image, i) => (
           <div key={i} className="fill">
-            <img src={image.path} alt={image.name} height={600} />
+            <img src={image.image} alt={image.name} height={600} />
           </div>
         ))}
       </Carousel>
@@ -30,7 +30,7 @@ ImageCarousel.propTypes = {
   images: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
-      path: PropTypes.string
+      image: PropTypes.string
     })
   ),
   navButtonsAlwaysVisible: PropTypes.bool,

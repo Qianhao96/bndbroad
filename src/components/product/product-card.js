@@ -10,7 +10,7 @@ export const ProductCard = ({ product }) => (
         component="img"
         height="300"
         width="250"
-        image={product.path}
+        image={product.image}
         alt={product.name}
         sx={{ width: '80%', marginLeft: '11%' }}
       />

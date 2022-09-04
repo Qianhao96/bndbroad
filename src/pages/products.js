@@ -15,7 +15,7 @@ import { ProductCard } from './../components/product/product-card';
 const bannerImages = [
   {
     name: 'image4',
-    path: '/static/images/bndbroad/bannerImages/image5.jpg'
+    image: '/static/images/bndbroad/bannerImages/image5.jpg'
   }
 ];
 
@@ -56,7 +56,7 @@ const Products = () => {
                 }}>
                 {allBags.map((p, ii) => (
                   <Grid key={ii} item lg={3}>
-                    {p.category === c ? <ProductCard key={ii} product={p}></ProductCard> : null}
+                    {p.category === c ? <ProductCard product={p}></ProductCard> : null}
                   </Grid>
                 ))}
               </Grid>

@@ -5,7 +5,7 @@ import { ImageCarousel } from './../components/dashboard/image-carousel';
 const bannerImages = [
   {
     name: 'image4',
-    path: '/static/images/bndbroad/bannerImages/image4.jpg'
+    image: '/static/images/bndbroad/bannerImages/image4.jpg'
   }
 ];
 

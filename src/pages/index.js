@@ -12,46 +12,46 @@ import { indexBagProducts } from './../services/data';
 const bannerImages = [
   {
     name: 'image1',
-    path: '/static/images/bndbroad/bannerImages/image1.jpg'
+    image: '/static/images/bndbroad/bannerImages/image1.jpg'
   },
   {
     name: 'image2',
-    path: '/static/images/bndbroad/bannerImages/image2.jpg'
+    image: '/static/images/bndbroad/bannerImages/image2.jpg'
   },
   {
     name: 'image3',
-    path: '/static/images/bndbroad/bannerImages/image3.jpg'
+    image: '/static/images/bndbroad/bannerImages/image3.jpg'
   }
 ];
 
 // const companyImages = [
 //   {
 //     name: 'image1',
-//     path: '/static/images/bndbroad/indexImages/indexImage1.jpg'
+//     image: '/static/images/bndbroad/indexImages/indexImage1.jpg'
 //   },
 //   {
 //     name: 'image2',
-//     path: '/static/images/bndbroad/indexImages/indexImage2.png'
+//     image: '/static/images/bndbroad/indexImages/indexImage2.png'
 //   },
 //   {
 //     name: 'image3',
-//     path: '/static/images/bndbroad/indexImages/indexImage3.png'
+//     image: '/static/images/bndbroad/indexImages/indexImage3.png'
 //   },
 //   {
 //     name: 'image4',
-//     path: '/static/images/bndbroad/indexImages/indexImage4.png'
+//     image: '/static/images/bndbroad/indexImages/indexImage4.png'
 //   },
 //   {
 //     name: 'image5',
-//     path: '/static/images/bndbroad/indexImages/indexImage5.jpg'
+//     image: '/static/images/bndbroad/indexImages/indexImage5.jpg'
 //   },
 //   {
 //     name: 'image6',
-//     path: '/static/images/bndbroad/indexImages/indexImage6.jpg'
+//     image: '/static/images/bndbroad/indexImages/indexImage6.jpg'
 //   },
 //   {
 //     name: 'image7',
-//     path: '/static/images/bndbroad/indexImages/indexImage7.png'
+//     image: '/static/images/bndbroad/indexImages/indexImage7.png'
 //   }
 // ];
 

@@ -1,38 +1,3 @@
-export const indexBagProducts = [
-  {
-    name: 'Cosmetic Bag',
-    path: '/static/images/bndbroad/productsImages/cb1.jpg'
-  },
-  {
-    name: 'Vehicle-mounted Bag',
-    path: '/static/images/bndbroad/productsImages/vmb1.jpg'
-  },
-  {
-    name: 'Sports, Outdoor Bag',
-    path: '/static/images/bndbroad/productsImages/sodb1.jpg'
-  },
-  {
-    name: 'Makeup Storage Bag',
-    path: '/static/images/bndbroad/productsImages/msb1.jpg'
-  },
-  {
-    name: 'Female Bag',
-    path: '/static/images/bndbroad/productsImages/fb1.jpg'
-  },
-  {
-    name: 'Mommy Bag',
-    path: '/static/images/bndbroad/productsImages/mb1.jpg'
-  },
-  {
-    name: 'Shopping Bag',
-    path: '/static/images/bndbroad/productsImages/sb1.jpg'
-  },
-  {
-    name: 'Fireproof Bag',
-    path: '/static/images/bndbroad/productsImages/fpb1.jpg'
-  }
-];
-
 export const productCategories = [
   'Bags',
   'Leather',
@@ -47,7 +12,10 @@ export const makeupStorageBags = [
   {
     id: 1,
     name: 'Makeup Storage Bag 1',
-    path: '/static/images/bndbroad/productsImages/msb1.jpg',
+    image: '/static/images/bndbroad/productsImages/msb1.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb1_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb1_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb1_d_1.jpg',
     category: 'Bags',
 
     Item: '101237',
@@ -66,7 +34,10 @@ export const makeupStorageBags = [
   {
     id: 2,
     name: 'Makeup Storage Bag 2',
-    path: '/static/images/bndbroad/productsImages/msb2.jpg',
+    image: '/static/images/bndbroad/productsImages/msb2.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb2_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb2_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb2_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -83,7 +54,10 @@ export const makeupStorageBags = [
   {
     id: 3,
     name: 'Makeup Storage Bag 3',
-    path: '/static/images/bndbroad/productsImages/msb3.jpg',
+    image: '/static/images/bndbroad/productsImages/msb3.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb3_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb3_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb3_d_1.jpg',
     category: 'Bags',
 
     material: 'PVC',
@@ -100,7 +74,10 @@ export const makeupStorageBags = [
   {
     id: 4,
     name: 'Makeup Storage Bag 4',
-    path: '/static/images/bndbroad/productsImages/msb4.jpg',
+    image: '/static/images/bndbroad/productsImages/msb4.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb4_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb4_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb4_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -117,8 +94,10 @@ export const makeupStorageBags = [
   {
     id: 5,
     name: 'Makeup Storage Bag 5',
-    path: '/static/images/bndbroad/productsImages/msb5.jpg',
-    category: 'Bags',
+    image: '/static/images/bndbroad/productsImages/msb5.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb5_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb5_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb5_d_1.jpg',
 
     material: 'Polyester',
     type: 'Bag',
@@ -134,7 +113,10 @@ export const makeupStorageBags = [
   {
     id: 6,
     name: 'Makeup Storage Bag 6',
-    path: '/static/images/bndbroad/productsImages/msb6.jpg',
+    image: '/static/images/bndbroad/productsImages/msb6.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb6_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb6_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb6_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -151,7 +133,10 @@ export const makeupStorageBags = [
   {
     id: 7,
     name: 'Makeup Storage Bag 7',
-    path: '/static/images/bndbroad/productsImages/msb7.jpg',
+    image: '/static/images/bndbroad/productsImages/msb7.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb7_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb7_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb7_d_1.jpg',
     category: 'Bags',
 
     material: 'PVC',
@@ -168,7 +153,10 @@ export const makeupStorageBags = [
   {
     id: 8,
     name: 'Makeup Storage Bag 8',
-    path: '/static/images/bndbroad/productsImages/msb8.jpg',
+    image: '/static/images/bndbroad/productsImages/msb8.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb8_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb8_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb8_d_1.jpg',
     category: 'Bags',
 
     material: 'PVC',
@@ -185,7 +173,10 @@ export const makeupStorageBags = [
   {
     id: 9,
     name: 'Makeup Storage Bag 9',
-    path: '/static/images/bndbroad/productsImages/msb9.jpg',
+    image: '/static/images/bndbroad/productsImages/msb9.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb9_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb9_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb9_d_1.jpg',
     category: 'Bags',
 
     material: 'PVC',
@@ -202,7 +193,10 @@ export const makeupStorageBags = [
   {
     id: 10,
     name: 'Makeup Storage Bag 10',
-    path: '/static/images/bndbroad/productsImages/msb10.jpg',
+    image: '/static/images/bndbroad/productsImages/msb10.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb10_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb10_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb10_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -221,7 +215,10 @@ export const makeupStorageBags = [
   {
     id: 11,
     name: 'Makeup Storage Bag 11',
-    path: '/static/images/bndbroad/productsImages/msb11.jpg',
+    image: '/static/images/bndbroad/productsImages/msb11.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb11_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb11_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb11_d_1.jpg',
     category: 'Bags',
 
     material: 'Pu',
@@ -242,7 +239,10 @@ export const makeupStorageBags = [
   {
     id: 12,
     name: 'Makeup Storage Bag 12',
-    path: '/static/images/bndbroad/productsImages/msb12.jpg',
+    image: '/static/images/bndbroad/productsImages/msb12.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb12_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb12_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb12_d_1.jpg',
     category: 'Bags',
 
     material: 'Pu',
@@ -260,7 +260,10 @@ export const makeupStorageBags = [
   {
     id: 13,
     name: 'Makeup Storage Bag 13',
-    path: '/static/images/bndbroad/productsImages/msb13.jpg',
+    image: '/static/images/bndbroad/productsImages/msb13.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb13_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb13_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb13_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -278,7 +281,10 @@ export const makeupStorageBags = [
   {
     id: 14,
     name: 'Makeup Storage Bag 14',
-    path: '/static/images/bndbroad/productsImages/msb14.jpg',
+    image: '/static/images/bndbroad/productsImages/msb14.jpg',
+    image1: '/static/images/bndbroad/productsImages/msb14_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/msb14_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/msb14_d_1.jpg',
 
     material: 'Polyester',
     type: 'Bag',
@@ -300,7 +306,10 @@ export const vehicleMountedBag = [
   {
     id: 201,
     name: 'Vehicle-mounted Bag',
-    path: '/static/images/bndbroad/productsImages/vmb1.jpg',
+    image: '/static/images/bndbroad/productsImages/vmb1.jpg',
+    image1: '/static/images/bndbroad/productsImages/vmb1_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/vmb1_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/vmb1_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -322,7 +331,10 @@ export const vehicleMountedBag = [
   {
     id: 202,
     name: 'Vehicle-mounted Bag 2',
-    path: '/static/images/bndbroad/productsImages/vmb2.jpg',
+    image: '/static/images/bndbroad/productsImages/vmb2.jpg',
+    image1: '/static/images/bndbroad/productsImages/vmb2_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/vmb2_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/vmb2_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -343,7 +355,10 @@ export const vehicleMountedBag = [
   {
     id: 203,
     name: 'Vehicle-mounted Bag 3',
-    path: '/static/images/bndbroad/productsImages/vmb3.jpg',
+    image: '/static/images/bndbroad/productsImages/vmb3.jpg',
+    image1: '/static/images/bndbroad/productsImages/vmb3_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/vmb3_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/vmb3_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -364,7 +379,10 @@ export const vehicleMountedBag = [
   {
     id: 204,
     name: 'Vehicle-mounted Bag 4',
-    path: '/static/images/bndbroad/productsImages/vmb4.jpg',
+    image: '/static/images/bndbroad/productsImages/vmb4.jpg',
+    image1: '/static/images/bndbroad/productsImages/vmb4_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/vmb4_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/vmb4_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -388,7 +406,10 @@ export const vehicleMountedBag = [
   {
     id: 205,
     name: 'Vehicle-mounted Bag 5',
-    path: '/static/images/bndbroad/productsImages/vmb5.jpg',
+    image: '/static/images/bndbroad/productsImages/vmb5.jpg',
+    image1: '/static/images/bndbroad/productsImages/vmb5_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/vmb5_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/vmb5_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -415,7 +436,10 @@ export const shoppingBag = [
   {
     id: 301,
     name: 'Shopping Bag',
-    path: '/static/images/bndbroad/productsImages/sb1.jpg',
+    image: '/static/images/bndbroad/productsImages/sb1.jpg',
+    image1: '/static/images/bndbroad/productsImages/sb1_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/sb1_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/sb1_d_1.jpg',
     category: 'Bags',
 
     product: 'shopping bags',
@@ -432,7 +456,10 @@ export const shoppingBag = [
   {
     id: 302,
     name: 'Shopping Bag',
-    path: '/static/images/bndbroad/productsImages/sb2.jpg',
+    image: '/static/images/bndbroad/productsImages/sb2.jpg',
+    image1: '/static/images/bndbroad/productsImages/sb2_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/sb2_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/sb2_d_1.jpg',
     category: 'Bags',
 
     product: 'shopping bags',
@@ -452,7 +479,10 @@ export const mommyBag = [
   {
     id: 401,
     name: 'Mommy Bag',
-    path: '/static/images/bndbroad/productsImages/mb1.jpg',
+    image: '/static/images/bndbroad/productsImages/mb1.jpg',
+    image1: '/static/images/bndbroad/productsImages/mb1_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/mb1_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/mb1_d_1.jpg',
     category: 'Bags',
 
     material: 'Oxford',
@@ -473,7 +503,10 @@ export const mommyBag = [
   {
     id: 402,
     name: 'Mommy Bag 2',
-    path: '/static/images/bndbroad/productsImages/mb2.jpg',
+    image: '/static/images/bndbroad/productsImages/mb2.jpg',
+    image1: '/static/images/bndbroad/productsImages/mb2_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/mb2_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/mb2_d_1.jpg',
     category: 'Bags',
 
     Item: '1012555',
@@ -491,7 +524,10 @@ export const mommyBag = [
   {
     id: 403,
     name: 'Mommy Bag 3',
-    path: '/static/images/bndbroad/productsImages/mb3.jpg',
+    image: '/static/images/bndbroad/productsImages/mb3.jpg',
+    image1: '/static/images/bndbroad/productsImages/mb3_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/mb3_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/mb3_d_1.jpg',
     category: 'Bags',
 
     Item: '10221',
@@ -511,7 +547,10 @@ export const fireProofBag = [
   {
     id: 501,
     name: 'Fireproof Bag',
-    path: '/static/images/bndbroad/productsImages/fpb1.jpg',
+    image: '/static/images/bndbroad/productsImages/fpb1.jpg',
+    image1: '/static/images/bndbroad/productsImages/fpb1_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/fpb1_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/fpb1_d_1.jpg',
     category: 'Bags',
 
     brand: 'cxl',
@@ -533,7 +572,10 @@ export const femaleBag = [
   {
     id: 601,
     name: 'Female Bag',
-    path: '/static/images/bndbroad/productsImages/fb1.jpg',
+    image: '/static/images/bndbroad/productsImages/fb1.jpg',
+    image1: '/static/images/bndbroad/productsImages/fb1_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/fb1_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/fpb1_d_1.jpg',
     category: 'Bags',
 
     style: 'Korean version / women"s handbag',
@@ -551,7 +593,10 @@ export const femaleBag = [
   {
     id: 602,
     name: 'Female Bag 2',
-    path: '/static/images/bndbroad/productsImages/fb2.jpg',
+    image: '/static/images/bndbroad/productsImages/fb2.jpg',
+    image1: '/static/images/bndbroad/productsImages/fb2_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/fb2_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/fpb2_d_1.jpg',
     category: 'Bags',
 
     style: 'Korean version / women"s handbag',
@@ -569,7 +614,10 @@ export const femaleBag = [
   {
     id: 603,
     name: 'Female Bag 3',
-    path: '/static/images/bndbroad/productsImages/fb3.jpg',
+    image: '/static/images/bndbroad/productsImages/fb3.jpg',
+    image1: '/static/images/bndbroad/productsImages/fb3_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/fb3_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/fpb3_d_1.jpg',
     category: 'Bags',
 
     style: 'Korean version / women"s shoulder bag',
@@ -589,7 +637,10 @@ export const sportOutDoorBag = [
   {
     id: 701,
     name: 'Sports, Outdoor Bag',
-    path: '/static/images/bndbroad/productsImages/sodb1.jpg',
+    image: '/static/images/bndbroad/productsImages/sodb1.jpg',
+    image1: '/static/images/bndbroad/productsImages/sodb1_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/sodb1_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/sodb1_d_1.jpg',
     category: 'Bags',
 
     productCategory: 'travel bag/travel bag',
@@ -609,7 +660,10 @@ export const sportOutDoorBag = [
   {
     id: 702,
     name: 'Sports, Outdoor Bag 2',
-    path: '/static/images/bndbroad/productsImages/sodb2.jpg',
+    image: '/static/images/bndbroad/productsImages/sodb2.jpg',
+    image1: '/static/images/bndbroad/productsImages/sodb2_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/sodb2_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/sodb2_d_1.jpg',
     category: 'Bags',
 
     origin: 'Shenzhen',
@@ -627,7 +681,10 @@ export const sportOutDoorBag = [
   {
     id: 703,
     name: 'Sports, Outdoor Bag 3',
-    path: '/static/images/bndbroad/productsImages/sodb3.jpg',
+    image: '/static/images/bndbroad/productsImages/sodb3.jpg',
+    image1: '/static/images/bndbroad/productsImages/sodb3_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/sodb3_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/sodb3_d_1.jpg',
     category: 'Bags',
 
     productCategory: 'travel bag/travel bag',
@@ -653,7 +710,10 @@ export const cosmeticBag = [
   {
     id: 801,
     name: 'Cosmetic Bag',
-    path: '/static/images/bndbroad/productsImages/cb1.jpg',
+    image: '/static/images/bndbroad/productsImages/cb1.jpg',
+    image1: '/static/images/bndbroad/productsImages/cb1_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/cb1_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/cb1_d_1.jpg',
     category: 'Bags',
 
     brand: 'CXL',
@@ -671,7 +731,10 @@ export const cosmeticBag = [
   {
     id: 802,
     name: 'Cosmetic Bag 2',
-    path: '/static/images/bndbroad/productsImages/cb2.jpg',
+    image: '/static/images/bndbroad/productsImages/cb2.jpg',
+    image1: '/static/images/bndbroad/productsImages/cb2_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/cb2_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/cb2_d_1.jpg',
     category: 'Bags',
 
     brand: 'CXL',
@@ -690,7 +753,10 @@ export const cosmeticBag = [
   {
     id: 803,
     name: 'Cosmetic Bag 3',
-    path: '/static/images/bndbroad/productsImages/cb3.jpg',
+    image: '/static/images/bndbroad/productsImages/cb3.jpg',
+    image1: '/static/images/bndbroad/productsImages/cb3_1.jpg',
+    image2: '/static/images/bndbroad/productsImages/cb3_2.jpg',
+    imaged1: '/static/images/bndbroad/productsImages/cb3_d_1.jpg',
     category: 'Bags',
 
     material: 'Polyester',
@@ -705,6 +771,17 @@ export const cosmeticBag = [
     usage: 'Suitable for Many Occasions',
     design: 'Fasihon'
   }
+];
+
+export const indexBagProducts = [
+  cosmeticBag[0],
+  vehicleMountedBag[0],
+  sportOutDoorBag[0],
+  makeupStorageBags[0],
+  femaleBag[0],
+  mommyBag[0],
+  shoppingBag[0],
+  fireProofBag[0]
 ];
 
 export const allBags = makeupStorageBags.concat(
