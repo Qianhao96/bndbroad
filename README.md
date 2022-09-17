@@ -94,3 +94,17 @@ material-kit-react
 
 - Email Us: support@deviasio.zendesk.com
 - [Follow us on Instagram](https://www.instagram.com/deviasio/)
+
+
+## Deploy step
+
+ssh junsanfactory.com.au
+
+pull change to local repo
+
+re run npm start
+
+`lsof -i :3000`
+`sudo kill -9 {pid}`
+
+check `pm2 ps`
