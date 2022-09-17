@@ -89,7 +89,9 @@ const Products = () => (
               color="textPrimary"
               variant="h7"
               sx={{ display: 'flex', alignItems: 'center' }}>
-              <AddLocationAltIcon sx={{ mr: 1 }} fontSize="medium" /> Address : Room 519, Chengtou Business Center, Qinglin Road, Huanggekeng Community, Longcheng Street, Longgang District, Shenzhen city,Guangdong Province, China.
+              <AddLocationAltIcon sx={{ mr: 1 }} fontSize="medium" /> Address : Room 519, Chengtou
+              Business Center, Qinglin Road, Huanggekeng Community, Longcheng Street, Longgang
+              District, Shenzhen city,Guangdong Province, China.
             </Typography>
           </Tooltip>
         </Grid>

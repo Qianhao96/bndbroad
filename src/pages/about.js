@@ -47,8 +47,7 @@ const Products = () => (
             Bonade Enterprise Management Consulting (Shenzhen) Co., Ltd., was founded in 2018, it is
             a professional foreign trade company with import and export rights of goods and
             technologies. We focus on the import and export business of bags, leather, gifts, toys,
-            electronic products, mobile phimport { Carousel } from 'react-material-ui-carousel';
-one accessories and household appliances.
+            electronic products, mobile phone accessories and household appliances.
           </Typography>
           <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
             We have a professional sales and technical teams, as well as a strong factory
