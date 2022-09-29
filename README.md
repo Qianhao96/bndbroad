@@ -103,6 +103,8 @@ ssh junsanfactory.com.au
 pull change to local repo
 npm run build
 
+(npm run start&) run at background
+
 check `pm2 ps`
 pm2 `run npm start`
 
