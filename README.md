@@ -101,10 +101,11 @@ material-kit-react
 ssh junsanfactory.com.au
 
 pull change to local repo
+npm run build
 
-re run npm start
+check `pm2 ps`
+pm2 `run npm start`
 
 `lsof -i :3000`
 `sudo kill -9 {pid}`
 
-check `pm2 ps`

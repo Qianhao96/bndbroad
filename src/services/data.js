@@ -1,11 +1,11 @@
 export const productCategories = [
   'Bags',
   'Leather',
-  'Gift',
-  'Toy',
-  'Household Appliances',
-  'Electronics',
-  'Mobile Accessories'
+  // 'Gift',
+  // 'Toy',
+  // 'Household Appliances',
+  // 'Electronics',
+  // 'Mobile Accessories'
 ];
 
 export const makeupStorageBags = [
