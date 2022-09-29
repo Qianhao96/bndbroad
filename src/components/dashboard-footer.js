@@ -10,22 +10,17 @@ export const DashboardFooter = () => {
           minHeight: '190px',
           padding: '30px'
         }}>
-        <Typography sx={{ mb: 1 }}>
-          Bonade Enterprise Management Consulting (Shenzhen) Co., Ltd.
-        </Typography>
+        <Typography sx={{ mb: 1 }}>Jiujiang Junxin Trading Co., Ltd.</Typography>
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 5 }}>
-          <Typography sx={{ mr: 3, mb: 1 }}>Tel：+86 0755 2826 8813 </Typography>
-          <Typography sx={{ mr: 3, mb: 1 }}>Mob：+86 136 3261 1713</Typography>
-          <Typography sx={{ mr: 3, mb: 1 }}>Web：www.bndbroad.com Email:</Typography>
-          <Typography>yolanda@bndbroad.com</Typography>
+          <Typography sx={{ mr: 3, mb: 1 }}>Tel：+86 13767233603 </Typography>
+          <Typography sx={{ mr: 3, mb: 1 }}>Mob：+86 13767233603</Typography>
+          <Typography sx={{ mr: 3, mb: 1 }}>Web：www.junsanfactory.com.au</Typography>
+          <Typography>Email: junsanfactory@126.com</Typography>
         </div>
         <Typography sx={{ mb: 1 }}>
-          Adree: Room 519, Chengtou Business Center, Qinglin Road, Huanggekeng Community, Longcheng
-          Street, Longgang District, Shenzhen city,Guangdong Province, China.
+          No. 31, Dading Road, Guilin Street, Ruichang City, Jiujiang City, Jiangxi Province
         </Typography>
-        <Typography>
-          Copyright © 2021 Bonade Enterprise Management Consulting (Shenzhen) Co., Ltd.
-        </Typography>
+        <Typography>Copyright © 2022 Jiujiang Junxin Trading Co., Ltd.</Typography>
       </div>
     </>
   );

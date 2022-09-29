@@ -46,28 +46,28 @@ export const DashboardNavbar = (props) => {
             }}>
             <MenuIcon fontSize="small" />
           </IconButton>
-          <Tooltip title="Email: yolanda@bndbroad.com">
+          <Tooltip title="Email: junsanfactory@126.com">
             <Typography
               color="textPrimary"
               variant="h7"
               sx={{ display: 'flex', alignItems: 'center' }}>
-              <EmailIcon sx={{ mr: 1 }} fontSize="medium" /> Email: yolanda@bndbroad.com
+              <EmailIcon sx={{ mr: 1 }} fontSize="medium" /> Email: junsanfactory@126.com
             </Typography>
           </Tooltip>
-          <Tooltip title="Tel：+86 0755 2826 8813">
+          <Tooltip title="Tel：+86 13767233603">
             <Typography
               color="textPrimary"
               variant="h7"
               sx={{ display: 'flex', alignItems: 'center', ml: 5 }}>
-              <CallIcon sx={{ mr: 1 }} fontSize="medium" /> Tel：+86 0755 2826 8813
+              <CallIcon sx={{ mr: 1 }} fontSize="medium" /> Tel：+86 13767233603
             </Typography>
           </Tooltip>
-          <Tooltip title=" Mob：+86 136 3261 1713">
+          <Tooltip title=" Mob：+86 13767233603">
             <Typography
               color="textPrimary"
               variant="h7"
               sx={{ display: 'flex', alignItems: 'center', ml: 5 }}>
-              <MobileScreenShareIcon sx={{ mr: 1 }} fontSize="medium" /> Mob：+86 136 3261 1713
+              <MobileScreenShareIcon sx={{ mr: 1 }} fontSize="medium" /> Mob：+86 13767233603
             </Typography>
           </Tooltip>
           <Box sx={{ flexGrow: 1 }} />

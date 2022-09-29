@@ -25,7 +25,7 @@ const Products = () => (
         marginTop: '30px',
         paddingBottom: '30px'
       }}>
-      <Typography variant="h4">ABOUT BONADE</Typography>
+      <Typography variant="h4">ABOUT Jsmax</Typography>
     </Box>
     <Grid container spacing={2}>
       <Grid item xl={6}>
@@ -39,15 +39,12 @@ const Products = () => (
             boxShadow:
               '0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07),0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);'
           }}>
-          <Typography variant="h3">
-            Bonade Enterprise Management Consulting (Shenzhen) Co., Ltd,
-          </Typography>
+          <Typography variant="h3">Jiujiang Junxin Trading Co., Ltd.</Typography>
 
           <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
-            Bonade Enterprise Management Consulting (Shenzhen) Co., Ltd., was founded in 2018, it is
-            a professional foreign trade company with import and export rights of goods and
-            technologies. We focus on the import and export business of bags, leather, gifts, toys,
-            electronic products, mobile phone accessories and household appliances.
+            Jiujiang Junxin Trading Co., Ltd. was established in 2022. It is a professional foreign
+            trade company with import and export rights of goods and technology.We focus on the
+            import and export business of the luggage.
           </Typography>
           <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
             We have a professional sales and technical teams, as well as a strong factory
@@ -83,7 +80,7 @@ const Products = () => (
         marginTop: '30px',
         paddingBottom: '30px'
       }}>
-      <Typography variant="h4">BONADE ADVANTAGE</Typography>
+      <Typography variant="h4">JSMAX ADVANTAGE</Typography>
     </Box>
     <Grid container spacing={2}>
       <Grid item xl={6}>
@@ -97,7 +94,7 @@ const Products = () => (
               backgroundColor: '#355e9a',
               padding: 20
             }}>
-            <Typography variant="h4">BONADE</Typography>
+            <Typography variant="h4">JSMAX</Typography>
             <Typography variant="h5">ADVANTAGE</Typography>
           </Box>
           <img
@@ -154,10 +151,10 @@ const Products = () => (
           <img width="100%" src="/static/images/bndbroad/indexImages/indexImage4.png" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage5.jpg" />
+          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage5.png" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage6.jpg" />
+          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage6.png" />
         </Carousel.Item>
         <Carousel.Item>
           <img width="100%" src="/static/images/bndbroad/indexImages/indexImage7.png" />

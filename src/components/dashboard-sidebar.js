@@ -83,7 +83,7 @@ export const DashboardSidebar = (props) => {
                     width: 25
                   }}
                 />
-                <h1 style={{ color: '#D1D5DB', marginLeft: '7px' }}>Bonade</h1>
+                <h1 style={{ color: '#D1D5DB', marginLeft: '7px' }}>Jsmax</h1>
               </a>
             </NextLink>
           </Box>

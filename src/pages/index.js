@@ -68,7 +68,7 @@ const Dashboard = () => (
         paddingBottom: '30px'
       }}>
       <Typography variant="h5">WHAT ARE YOU LOOKING FOR?</Typography>
-      <Typography variant="h4">Bonade RECOMMENDS IT FOR YOU</Typography>
+      <Typography variant="h4">Jsmax RECOMMENDS IT FOR YOU</Typography>
     </Box>
     <Box style={{ display: 'flex', justifyContent: 'center' }}>
       <Box style={{ marginRight: '100px' }}>
@@ -95,7 +95,7 @@ const Dashboard = () => (
           </a>
         </NextLink>
       </Box>
-      <Box style={{ marginRight: '100px' }}>
+      {/* <Box style={{ marginRight: '100px' }}>
         <NextLink href="/products">
           <a style={{ textDecoration: 'none', textAlign: 'center' }}>
             <img
@@ -154,7 +154,7 @@ const Dashboard = () => (
             <p style={{ fontSize: '16px', color: '#333' }}>Mobile Accessories</p>
           </a>
         </NextLink>
-      </Box>
+      </Box> */}
     </Box>
 
     <Box sx={{ backgroundImage: 'url(/static/images/bndbroad/indexImages/index-box2-bg.jpg)' }}>
@@ -188,7 +188,7 @@ const Dashboard = () => (
               backgroundColor: '#355e9a',
               padding: 20
             }}>
-            <Typography variant="h4">BONADE</Typography>
+            <Typography variant="h4">JSMAX</Typography>
             <Typography variant="h5">ADVANTAGE</Typography>
           </Box>
           <img
@@ -211,13 +211,13 @@ const Dashboard = () => (
           <Typography variant="h3">We are trustworthy</Typography>
           <Divider />
           <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
-            1. The Company is geographically located in the central area of Longgang Central City
-            with convenient transportation and excellent environment, and at the junction of
-            Dongguan and Huizhou, which is convenient for business development.
+            1.The company is located in the developed urban area of Jiangxi, with convenient
+            transportation and excellent environment. At the junction of Jiangxi and Hubei, this is
+            very convenient for business development.
           </Typography>
           <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
-            2. Professional foreign trade team: with more than 20 years of experience in foreign
-            trade export, familiar with international trade laws and regulations.
+            2. Professional foreign trade team With more than 15 years of foreign trade foundries,
+            direct trade, bringing you a better shopping experience
           </Typography>
           <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
             3. The bag industry has more than 15 years.
@@ -245,13 +245,22 @@ const Dashboard = () => (
           <img width="100%" src="/static/images/bndbroad/indexImages/indexImage4.png" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage5.jpg" />
+          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage5.png" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage6.jpg" />
+          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage6.png" />
         </Carousel.Item>
         <Carousel.Item>
           <img width="100%" src="/static/images/bndbroad/indexImages/indexImage7.png" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage8.png" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage9.png" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage10.png" />
         </Carousel.Item>
       </Carousel>
     </Box>
@@ -280,18 +289,15 @@ const Dashboard = () => (
                 padding: 20,
                 width: '190px'
               }}>
-              <Typography variant="h4">BONADE</Typography>
+              <Typography variant="h4">JSMAX</Typography>
               <Typography variant="h5">ADVANTAGE</Typography>
             </Box>
-            <Typography variant="h5">
-              Bonade Enterprise Management Consulting (Shenzhen) Co., Ltd
-            </Typography>
+            <Typography variant="h5">Jiujiang Junxin Trading Co., Ltd.</Typography>
             <Divider />
             <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
-              Bonade Enterprise Management Consulting (Shenzhen) Co., Ltd., was founded in 2018, it
-              is a professional foreign trade company with import and export rights of goods and
-              technologies. We focus on the import and export business of bags, leather, gifts,
-              toys, electronic products, mobile phone accessories and household appliances.
+              Jiujiang Junxin Trading Co., Ltd. was established in 2022. It is a professional
+              foreign trade company with import and export rights of goods and technology.We focus
+              on the import and export business of the luggage.
             </Typography>
             <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
               We have a professional sales and technical teams, as well as a strong factory

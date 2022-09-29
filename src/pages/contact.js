@@ -28,9 +28,7 @@ const Products = () => (
         marginTop: '40px',
         paddingBottom: '30px'
       }}>
-      <Typography variant="h4">
-        BONADE ENTERPRISE MANAGEMENT CONSULTING (SHENZHEN) CO., LTD,
-      </Typography>
+      <Typography variant="h4">Jiujiang Junxin Trading Co., Ltd.</Typography>
     </Box>
     <Box
       sx={{
@@ -44,37 +42,37 @@ const Products = () => (
         spacing={7}
         sx={{ width: '60%', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 12px', paddingBottom: '60px' }}>
         <Grid item xl={6}>
-          <Tooltip title="Tel：+86 0755 2826 8813">
+          <Tooltip title="Tel：+86 13767233603">
             <Typography
               color="textPrimary"
               variant="h7"
               sx={{ display: 'flex', alignItems: 'center', ml: 5 }}>
-              <CallIcon sx={{ mr: 1 }} fontSize="medium" /> Tel：+86 0755 2826 8813
+              <CallIcon sx={{ mr: 1 }} fontSize="medium" /> Tel：+86 13767233603
             </Typography>
           </Tooltip>
         </Grid>
         <Grid item xl={6}>
-          <Tooltip title="Email: yolanda@bndbroad.com">
+          <Tooltip title="Email: junsanfactory@126.com">
             <Typography
               color="textPrimary"
               variant="h7"
               sx={{ display: 'flex', alignItems: 'center' }}>
-              <EmailIcon sx={{ mr: 1 }} fontSize="medium" /> Email: yolanda@bndbroad.com
+              <EmailIcon sx={{ mr: 1 }} fontSize="medium" /> Email: junsanfactory@126.com
             </Typography>
           </Tooltip>
         </Grid>
         <Grid item xl={6}>
-          <Tooltip title=" Mob：+86 136 3261 1713">
+          <Tooltip title=" Mob：+86 13767233603">
             <Typography
               color="textPrimary"
               variant="h7"
               sx={{ display: 'flex', alignItems: 'center', ml: 5 }}>
-              <MobileScreenShareIcon sx={{ mr: 1 }} fontSize="medium" /> Mob：+86 136 3261 1713
+              <MobileScreenShareIcon sx={{ mr: 1 }} fontSize="medium" /> Mob：+86 13767233603
             </Typography>
           </Tooltip>
         </Grid>
         <Grid item xl={6}>
-          <Tooltip title=" Mob：+86 136 3261 1713">
+          <Tooltip title=" Mob：www.junsanfactory.com.au">
             <Typography
               color="textPrimary"
               variant="h7"
@@ -89,9 +87,8 @@ const Products = () => (
               color="textPrimary"
               variant="h7"
               sx={{ display: 'flex', alignItems: 'center' }}>
-              <AddLocationAltIcon sx={{ mr: 1 }} fontSize="medium" /> Address : Room 519, Chengtou
-              Business Center, Qinglin Road, Huanggekeng Community, Longcheng Street, Longgang
-              District, Shenzhen city,Guangdong Province, China.
+              <AddLocationAltIcon sx={{ mr: 1 }} fontSize="medium" /> No. 31, Dading Road, Guilin
+              Street, Ruichang City, Jiujiang City, Jiangxi Province
             </Typography>
           </Tooltip>
         </Grid>
