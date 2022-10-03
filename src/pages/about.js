@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { Box, Typography, Grid, Divider } from '@mui/material';
-import ReactPlayer from 'react-player';
 import Carousel from 'better-react-carousel';
 
 import { DashboardLayout } from '../components/dashboard-layout';
