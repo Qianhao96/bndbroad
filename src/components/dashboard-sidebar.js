@@ -79,8 +79,8 @@ export const DashboardSidebar = (props) => {
               <a style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
                 <Logo
                   sx={{
-                    height: 25,
-                    width: 25
+                    height: 70,
+                    width: 70
                   }}
                 />
                 <h1 style={{ color: '#D1D5DB', marginLeft: '7px' }}>Jsmax</h1>

@@ -2,7 +2,6 @@ import { Box, Typography, Divider, Grid } from '@mui/material';
 import Head from 'next/head';
 import NextLink from 'next/link';
 import Carousel from 'better-react-carousel';
-import ReactPlayer from 'react-player';
 
 import { DashboardLayout } from '../components/dashboard-layout';
 import { ImageCarousel } from './../components/dashboard/image-carousel';
@@ -23,37 +22,6 @@ const bannerImages = [
     image: '/static/images/bndbroad/bannerImages/image3.jpg'
   }
 ];
-
-// const companyImages = [
-//   {
-//     name: 'image1',
-//     image: '/static/images/bndbroad/indexImages/indexImage1.jpg'
-//   },
-//   {
-//     name: 'image2',
-//     image: '/static/images/bndbroad/indexImages/indexImage2.png'
-//   },
-//   {
-//     name: 'image3',
-//     image: '/static/images/bndbroad/indexImages/indexImage3.png'
-//   },
-//   {
-//     name: 'image4',
-//     image: '/static/images/bndbroad/indexImages/indexImage4.png'
-//   },
-//   {
-//     name: 'image5',
-//     image: '/static/images/bndbroad/indexImages/indexImage5.jpg'
-//   },
-//   {
-//     name: 'image6',
-//     image: '/static/images/bndbroad/indexImages/indexImage6.jpg'
-//   },
-//   {
-//     name: 'image7',
-//     image: '/static/images/bndbroad/indexImages/indexImage7.png'
-//   }
-// ];
 
 const Dashboard = () => (
   <>
@@ -233,34 +201,19 @@ const Dashboard = () => (
     <Box sx={{ padding: 5 }}>
       <Carousel cols={3} rows={1} gap={10} autoplay={3000} loop>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage1.jpg" />
+          <img width="65%" src="/static/images/bndbroad/indexImages/indexImage1.jpg" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage2.png" />
+          <img width="65%" src="/static/images/bndbroad/indexImages/indexImage2.jpg" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage3.png" />
+          <img width="69%" src="/static/images/bndbroad/indexImages/indexImage3.jpg" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage4.png" />
+          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage4.jpg" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage5.png" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage6.png" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage7.png" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage8.png" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage9.png" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage10.png" />
+          <img width="79%" src="/static/images/bndbroad/indexImages/indexImage5.jpg" />
         </Carousel.Item>
       </Carousel>
     </Box>
@@ -311,15 +264,8 @@ const Dashboard = () => (
           </Box>
         </Grid>
         <Grid item xl={6}>
-          <Box sx={{ position: 'relative', paddingTop: '60%' }}>
-            <ReactPlayer
-              style={{ position: 'absolute', top: 0, left: 0 }}
-              url="/static/images/bndbroad/chiller.mp4"
-              width="100%"
-              height="100%"
-              loop
-              playing={true}
-            />
+          <Box sx={{ position: 'relative', paddingLeft: '40%' }}>
+            <img src="/static/images/bndbroad/indexImages/indexImages.gif" alt="loading..." />
           </Box>
         </Grid>
       </Grid>

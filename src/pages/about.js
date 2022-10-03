@@ -62,15 +62,8 @@ const Products = () => (
         </Box>
       </Grid>
       <Grid item xl={6}>
-        <Box sx={{ position: 'relative', paddingTop: '60%' }}>
-          <ReactPlayer
-            style={{ position: 'absolute', top: 0, left: 0 }}
-            url="/static/images/bndbroad/chiller.mp4"
-            width="100%"
-            height="100%"
-            loop
-            playing={true}
-          />
+        <Box sx={{ position: 'relative', paddingLeft: '40%' }}>
+          <img src="/static/images/bndbroad/indexImages/indexImages.gif" alt="loading..." />
         </Box>
       </Grid>
     </Grid>
@@ -117,13 +110,13 @@ const Products = () => (
           <Typography variant="h3">We are trustworthy</Typography>
           <Divider />
           <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
-            1. The Company is geographically located in the central area of Longgang Central City
-            with convenient transportation and excellent environment, and at the junction of
-            Dongguan and Huizhou, which is convenient for business development.
+            1.The company is located in the developed urban area of Jiangxi, with convenient
+            transportation and excellent environment. At the junction of Jiangxi and Hubei, this is
+            very convenient for business development.
           </Typography>
           <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
-            2. Professional foreign trade team: with more than 20 years of experience in foreign
-            trade export, familiar with international trade laws and regulations.
+            2. Professional foreign trade team With more than 15 years of foreign trade foundries,
+            direct trade, bringing you a better shopping experience
           </Typography>
           <Typography variant="body1" sx={{ pt: 1, pb: 1 }}>
             3. The bag industry has more than 15 years.
@@ -139,25 +132,19 @@ const Products = () => (
     <Box sx={{ padding: 5 }}>
       <Carousel cols={3} rows={1} gap={10} autoplay={3000} loop>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage1.jpg" />
+          <img width="65%" src="/static/images/bndbroad/indexImages/indexImage1.jpg" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage2.png" />
+          <img width="65%" src="/static/images/bndbroad/indexImages/indexImage2.jpg" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage3.png" />
+          <img width="69%" src="/static/images/bndbroad/indexImages/indexImage3.jpg" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage4.png" />
+          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage4.jpg" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage5.png" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage6.png" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage7.png" />
+          <img width="79%" src="/static/images/bndbroad/indexImages/indexImage5.jpg" />
         </Carousel.Item>
       </Carousel>
     </Box>
