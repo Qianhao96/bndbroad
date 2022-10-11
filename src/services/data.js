@@ -786,9 +786,11 @@ export const indexBagProducts = [
 ];
 
 export const allBags = makeupStorageBags.concat(
-  vehicleMountedBag,
-  shoppingBag,
+  cosmeticBag,
+  femaleBag,
   mommyBag,
+  shoppingBag,
   fireProofBag,
-  cosmeticBag
+  vehicleMountedBag,
+  sportOutDoorBag
 );
