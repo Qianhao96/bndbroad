@@ -103,11 +103,7 @@ ssh junsanfactory.com.au
 pull change to local repo
 npm run build
 
-(npm run start&) run at background
-
-check `pm2 ps`
-pm2 `run npm start`
-
 `lsof -i :3000`
 `sudo kill -9 {pid}`
 
+(npm run start&) run at background
