@@ -36,7 +36,7 @@ const Dashboard = () => (
         paddingBottom: '30px'
       }}>
       <Typography variant="h5">WHAT ARE YOU LOOKING FOR?</Typography>
-      <Typography variant="h4">Jsmax RECOMMENDS IT FOR YOU</Typography>
+      <Typography variant="h4">JSMAX RECOMMENDS IT FOR YOU</Typography>
     </Box>
     <Box style={{ display: 'flex', justifyContent: 'center' }}>
       <Box style={{ marginRight: '100px' }}>
@@ -207,13 +207,25 @@ const Dashboard = () => (
           <img width="65%" src="/static/images/bndbroad/indexImages/indexImage2.jpg" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="69%" src="/static/images/bndbroad/indexImages/indexImage3.jpg" />
+          <img
+            width="69%"
+            style={{ top: '125px', position: 'relative' }}
+            src="/static/images/bndbroad/indexImages/indexImage3.jpg"
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/indexImage4.jpg" />
+          <img
+            width="100%"
+            style={{ top: '95px', position: 'relative' }}
+            src="/static/images/bndbroad/indexImages/indexImage4.jpg"
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="79%" src="/static/images/bndbroad/indexImages/indexImage5.jpg" />
+          <img
+            width="79%"
+            style={{ top: '95px', position: 'relative' }}
+            src="/static/images/bndbroad/indexImages/indexImage5.jpg"
+          />
         </Carousel.Item>
       </Carousel>
     </Box>
@@ -271,7 +283,8 @@ const Dashboard = () => (
       </Grid>
     </Box>
 
-    <Box sx={{ mt: 5, mb: 10 }}>News</Box>
+    {/* News */}
+    <Box sx={{ mt: 5, mb: 10 }}></Box>
   </>
 );
 

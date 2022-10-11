@@ -77,9 +77,11 @@ const ProductDetail = () => {
             width: '100%',
             backgroundColor: '#f5f5f5'
           }}>
-          <Grid container spacing={7} sx={{ width: '60%' }}>
+          <Grid container spacing={7} sx={{ width: '65%' }}>
             <Grid item xl={5}>
-              <ImageCarousel images={productImages}></ImageCarousel>
+              <div style={{ width: '600px' }}>
+                <ImageCarousel images={productImages}></ImageCarousel>
+              </div>
             </Grid>
             <Grid item xl={7}>
               <Typography variant="h3"> {product.name}</Typography>

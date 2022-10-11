@@ -74,13 +74,13 @@ export const DashboardSidebar = (props) => {
           height: '100%'
         }}>
         <div>
-          <Box sx={{ pl: 4, pt: 1 }}>
+          <Box sx={{ pl: 1, pt: 1 }}>
             <NextLink href="/" passHref>
               <a style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
                 <Logo
                   sx={{
-                    height: 70,
-                    width: 70
+                    height: 120,
+                    width: 120
                   }}
                 />
                 <h1 style={{ color: '#D1D5DB', marginLeft: '7px' }}>Jsmax</h1>
