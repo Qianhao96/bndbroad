@@ -77,7 +77,7 @@ const ProductDetail = () => {
             width: '100%',
             backgroundColor: '#f5f5f5'
           }}>
-          <Grid container spacing={7} sx={{ width: '65%' }}>
+          <Grid container spacing={7} sx={{ width: '90%' }}>
             <Grid item xl={5}>
               <div style={{ width: '600px' }}>
                 <ImageCarousel images={productImages}></ImageCarousel>

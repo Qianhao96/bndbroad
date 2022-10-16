@@ -18,7 +18,7 @@ export const DashboardFooter = () => {
           <Typography>Email: junsanfactory@126.com</Typography>
         </div>
         <Typography sx={{ mb: 1 }}>
-          No. 31, Dading Road, Guilin Street, Ruichang City, Jiujiang City, Jiangxi Province
+          No. 31, Aading Road, Guilin Street, Ruichang City, Jiujiang City, Jiangxi Province
         </Typography>
         <Typography>Copyright © 2022 Jiujiang Junxin Trading Co., Ltd.</Typography>
       </div>

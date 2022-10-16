@@ -87,7 +87,7 @@ const Products = () => (
               color="textPrimary"
               variant="h7"
               sx={{ display: 'flex', alignItems: 'center' }}>
-              <AddLocationAltIcon sx={{ mr: 1 }} fontSize="medium" /> No. 31, Dading Road, Guilin
+              <AddLocationAltIcon sx={{ mr: 1 }} fontSize="medium" /> No. 31, Aading Road, Guilin
               Street, Ruichang City, Jiujiang City, Jiangxi Province
             </Typography>
           </Tooltip>

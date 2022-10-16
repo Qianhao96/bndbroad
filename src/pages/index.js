@@ -40,7 +40,7 @@ const Dashboard = () => (
     </Box>
     <Box style={{ display: 'flex', justifyContent: 'center' }}>
       <Box style={{ marginRight: '100px' }}>
-        <NextLink href="/products">
+        <NextLink href="/products?tab=0">
           <a style={{ textDecoration: 'none', textAlign: 'center' }}>
             <img
               src="/static/images/bndbroad/productsImages/index-box1-img1.png"
@@ -52,7 +52,7 @@ const Dashboard = () => (
         </NextLink>
       </Box>
       <Box style={{ marginRight: '100px' }}>
-        <NextLink href="/products">
+        <NextLink href="/products?tab=1">
           <a style={{ textDecoration: 'none', textAlign: 'center' }}>
             <img
               src="/static/images/bndbroad/productsImages/index-box1-img2.png"
@@ -60,6 +60,30 @@ const Dashboard = () => (
               style={{ width: '100px' }}
             />
             <p style={{ fontSize: '16px', color: '#333' }}>Leather</p>
+          </a>
+        </NextLink>
+      </Box>
+      <Box style={{ marginRight: '100px' }}>
+        <NextLink href="/products?tab=2">
+          <a style={{ textDecoration: 'none', textAlign: 'center' }}>
+            <img
+              src="/static/images/bndbroad/productsImages/gloves.webp"
+              alt=""
+              style={{ width: '130px' }}
+            />
+            <p style={{ fontSize: '16px', color: '#333' }}>Gloves</p>
+          </a>
+        </NextLink>
+      </Box>
+      <Box style={{ marginRight: '100px' }}>
+        <NextLink href="/products?tab=3">
+          <a style={{ textDecoration: 'none', textAlign: 'center' }}>
+            <img
+              src="/static/images/bndbroad/productsImages/cap.webp"
+              alt=""
+              style={{ width: '85px' }}
+            />
+            <p style={{ fontSize: '16px', color: '#333' }}>Cap</p>
           </a>
         </NextLink>
       </Box>
@@ -231,11 +255,19 @@ const Dashboard = () => (
     </Box>
 
     <Box sx={{ backgroundColor: 'white' }}>
-      <Carousel cols={1} rows={1} gap={10} autoplay={3000} hideArrow={true} loop>
+      {/* <Carousel cols={1} rows={1} gap={10} autoplay={3000} hideArrow={true} loop>
         <Carousel.Item>
-          <img width="100%" src="/static/images/bndbroad/indexImages/index-box4-bg.jpg" />
+          <img
+            width="100%"
+            height="75%"
+            src="/static/images/bndbroad/indexImages/index-box4-bg.jpg"
+          />
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
+      <img
+        style={{ width: '60%', height: '30%', marginLeft: '15%', marginBottom: '20px' }}
+        src="/static/images/bndbroad/indexImages/index-box4-bg.jpg"
+      />
       <Grid container spacing={2}>
         <Grid item xl={6}>
           <Box

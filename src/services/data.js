@@ -1,6 +1,8 @@
 export const productCategories = [
   'Bags',
   'Leather',
+  'Gloves',
+  'Cap'
   // 'Gift',
   // 'Toy',
   // 'Household Appliances',
