@@ -5,7 +5,7 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import * as React from 'react';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 
 import { DashboardLayout } from '../components/dashboard-layout';
 import { ImageCarousel } from './../components/dashboard/image-carousel';
