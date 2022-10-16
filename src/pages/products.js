@@ -27,14 +27,14 @@ const Products = () => {
     setValue(newValue);
   };
 
-  const router = useRouter();
-  const { tab } = router.query;
+  // const router = useRouter();
+  // const { tab } = router.query;
 
-  React.useEffect(() => {
-    if (tab) {
-      setValue(tab);
-    }
-  });
+  // React.useEffect(() => {
+  //   if (tab) {
+  //     setValue(tab);
+  //   }
+  // });
 
   return (
     <>
