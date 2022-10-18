@@ -106,7 +106,7 @@ const ProductDetail = () => {
               <Divider />
               <Grid container spacing={7} sx={{ width: '100%', marginTop: 1 }}>
                 <Grid item lg={6} sx={{ display: 'flex', alignItems: 'center' }}>
-                  <Typography variant="h8">Service hotline: +86 0755 2826 8813</Typography>
+                  <Typography variant="h8">Service hotline: +86 13767233603</Typography>
                 </Grid>
                 <Grid item lg={6}>
                   <Button variant="contained">ONLINE CONSULTATION</Button>
