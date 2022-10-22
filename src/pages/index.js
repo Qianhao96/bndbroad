@@ -67,9 +67,9 @@ const Dashboard = () => (
         <NextLink href="/products?tab=2">
           <a style={{ textDecoration: 'none', textAlign: 'center' }}>
             <img
-              src="/static/images/bndbroad/productsImages/gloves.webp"
+              src="/static/images/bndbroad/productsImages/glove.png"
               alt=""
-              style={{ width: '130px' }}
+              style={{ width: '99px' }}
             />
             <p style={{ fontSize: '16px', color: '#333' }}>Gloves</p>
           </a>
@@ -79,7 +79,7 @@ const Dashboard = () => (
         <NextLink href="/products?tab=3">
           <a style={{ textDecoration: 'none', textAlign: 'center' }}>
             <img
-              src="/static/images/bndbroad/productsImages/cap.webp"
+              src="/static/images/bndbroad/productsImages/cap.png"
               alt=""
               style={{ width: '85px' }}
             />
